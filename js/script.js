@@ -31,7 +31,7 @@ function handleSubmit(event){
         nome: form.nome.value,
         email: form.email.value,
         telefone: form.telefone.value,
-        dataCadastro: new Date().toLocaleDateString();
+        dataCadastro: new Date().toLocaleDateString()
 
     }
 }
