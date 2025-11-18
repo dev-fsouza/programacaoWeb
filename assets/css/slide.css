@@ -1,15 +1,17 @@
-section .slider{
+.slider{
     margin: 0 auto;
     width: 100%;
     height: auto;
     padding: 0 !important;
-    overflow: hidden;
+    overflow-x: hidden;
+    
 }
 
 .slider-content{
     width: 400%;
     height: auto;
     display: flex;
+    
 }
 
 .slider-content input, .img-mobile{
@@ -22,6 +24,7 @@ section .slider{
     position: relative;
     text-align: center;
     transition: 3s;
+    
 }
 
 .slide-box img{
@@ -45,7 +48,7 @@ section .slider{
 
 }
 
-.nav-manual .manual-btn:not(:last-child){
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
     margin-right: 6px;
 }
 
@@ -69,6 +72,23 @@ section .slider{
     margin-left: -50%;
 }
 
+#sd1{
+    opacity: 90%;
+    
+    
+}
 
-/* Estilização do MOBILE */
+/*#sd2{
+    width: 100%;
+    height: 50%;
+}
+
+#sd3{
+    width: 100%;
+    height: 50%;
+}*/
+
+
+
+
 
